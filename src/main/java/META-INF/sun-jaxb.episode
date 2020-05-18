@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.3.0 生成的
+请访问 <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2020.05.12 时间 01:47:09 PM CST 
+
+  -->
+  <bindings xmlns:tns="http://www.opentravel.org/OTA/2003/05/beta" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.benny.traveladvisor.timatic3.dto"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:countryResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountryResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:downloadResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DownloadResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:newsResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.NewsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:paragraphReport">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParagraphReport"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:timDownload">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimDownload"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:timBookExtract">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimBookExtract"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:paragraphText">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParagraphText"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timDownloadCountrySubsection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimDownloadCountrySubsection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:countrySection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountrySection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:countryInformationParagraph">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountryInformationParagraph"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:countrySubSection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountrySubSection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:groupDetail">
+      <class ref="com.benny.traveladvisor.timatic3.dto.GroupDetail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:countryDetail">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountryDetail"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:loginRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.LoginRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:baseMessage">
+      <class ref="com.benny.traveladvisor.timatic3.dto.BaseMessage"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:checkNameRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CheckNameRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:cliLoggerRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliLoggerRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:request">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Request"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:cliKeywordRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliKeywordRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:cliRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:countryRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountryRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:countryInformationRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountryInformationRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sectionWithSectionCodeAndSubSectionCode">
+      <class ref="com.benny.traveladvisor.timatic3.dto.SectionWithSectionCodeAndSubSectionCode"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:transitCountry">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TransitCountry"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:documentRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DocumentRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:stayDuration">
+      <class ref="com.benny.traveladvisor.timatic3.dto.StayDuration"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visaData">
+      <class ref="com.benny.traveladvisor.timatic3.dto.VisaData"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:downloadRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DownloadRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:newsRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.NewsRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:newsDates">
+      <class ref="com.benny.traveladvisor.timatic3.dto.NewsDates"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:notificationRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.NotificationRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:paramRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParamRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:paramValuesRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParamValuesRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:termsRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TermsRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sectionRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.SectionRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:visaRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.VisaRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:loginResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.LoginResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:response">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:errorType">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ErrorType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:checkNameResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CheckNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:cliLoggerResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliLoggerResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cliLoggerResponseUnit">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliLoggerResponseUnit"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:cliKeywordResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliKeywordResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cliKeywordInformation">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliKeywordInformation"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:cliResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CliResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:countryInformationResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountryInformationResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:countryInformation">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CountryInformation"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:documentResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DocumentResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:documentCheckResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DocumentCheckResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:notificationResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.NotificationResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:notificationItem">
+      <class ref="com.benny.traveladvisor.timatic3.dto.NotificationItem"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:paramResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParamResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:paramResults">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParamResults"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:paramValuesResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParamValuesResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:values">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Values"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:termsResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TermsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sectionData">
+      <class ref="com.benny.traveladvisor.timatic3.dto.SectionData"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:paragraphReference">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParagraphReference"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:notesReference">
+      <class ref="com.benny.traveladvisor.timatic3.dto.NotesReference"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:p">
+      <class ref="com.benny.traveladvisor.timatic3.dto.P"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Inline">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Inline"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:a">
+      <class ref="com.benny.traveladvisor.timatic3.dto.A"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:a.content">
+      <class ref="com.benny.traveladvisor.timatic3.dto.AContent"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:br">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Br"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:img">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Img"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:i">
+      <class ref="com.benny.traveladvisor.timatic3.dto.I"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:b">
+      <class ref="com.benny.traveladvisor.timatic3.dto.B"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:em">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Em"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:strong">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Strong"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:sub">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Sub"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:sup">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Sup"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timaticReference">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimaticReference"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:h1">
+      <class ref="com.benny.traveladvisor.timatic3.dto.H1"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:h2">
+      <class ref="com.benny.traveladvisor.timatic3.dto.H2"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:h3">
+      <class ref="com.benny.traveladvisor.timatic3.dto.H3"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:h4">
+      <class ref="com.benny.traveladvisor.timatic3.dto.H4"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:h5">
+      <class ref="com.benny.traveladvisor.timatic3.dto.H5"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:h6">
+      <class ref="com.benny.traveladvisor.timatic3.dto.H6"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ul">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Ul"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:li">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Li"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Flow">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Flow"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ol">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Ol"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:pre">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Pre"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pre.content">
+      <class ref="com.benny.traveladvisor.timatic3.dto.PreContent"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:u">
+      <class ref="com.benny.traveladvisor.timatic3.dto.U"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:errorResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ErrorResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:visaResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.VisaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visaResults">
+      <class ref="com.benny.traveladvisor.timatic3.dto.VisaResults"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:processLogin">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ProcessLogin"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:processLoginResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ProcessLoginResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:processRequest">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ProcessRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:processRequestResponse">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ProcessRequestResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visaEvaluation">
+      <class ref="com.benny.traveladvisor.timatic3.dto.VisaEvaluation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:messageType">
+      <class ref="com.benny.traveladvisor.timatic3.dto.MessageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:paragraphTextType">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParagraphTextType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cityDetail">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CityDetail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:alternateDetail">
+      <class ref="com.benny.traveladvisor.timatic3.dto.AlternateDetail"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:documentParagraphSection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DocumentParagraphSection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:documentSubSection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DocumentSubSection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:documentSection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DocumentSection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:documentCountryInfo">
+      <class ref="com.benny.traveladvisor.timatic3.dto.DocumentCountryInfo"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:text">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Text"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:news">
+      <class ref="com.benny.traveladvisor.timatic3.dto.News"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:parameterList">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ParameterList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:parameter">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Parameter"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:value">
+      <class ref="com.benny.traveladvisor.timatic3.dto.Value"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:requestCommand">
+      <class ref="com.benny.traveladvisor.timatic3.dto.RequestCommand"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:subSectionData">
+      <class ref="com.benny.traveladvisor.timatic3.dto.SubSectionData"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:reportParagraph">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ReportParagraph"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:reportCountrySection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ReportCountrySection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:reportCountrySubSection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ReportCountrySubSection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:reportText">
+      <class ref="com.benny.traveladvisor.timatic3.dto.ReportText"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cyclicReference">
+      <class ref="com.benny.traveladvisor.timatic3.dto.CyclicReference"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timDownloadParagraph">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimDownloadParagraph"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timDownloadText">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimDownloadText"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timDownloadCountrySection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimDownloadCountrySection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timParagraph">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimParagraph"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timCountrySection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimCountrySection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timCountrySubSection">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimCountrySubSection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:timText">
+      <class ref="com.benny.traveladvisor.timatic3.dto.TimText"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visaList">
+      <class ref="com.benny.traveladvisor.timatic3.dto.VisaList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visaType">
+      <class ref="com.benny.traveladvisor.timatic3.dto.VisaType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:dataSection">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.DataSection"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:downloadType">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.DownloadType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:parameterType">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.ParameterType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Shape">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.Shape"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:groupType">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.GroupType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:paragraphType">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.ParagraphType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:sufficient">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.Sufficient"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cliKeywordType">
+      <typesafeEnumClass ref="com.benny.traveladvisor.timatic3.dto.CliKeywordType"/>
+    </bindings>
+  </bindings>
+</bindings>
