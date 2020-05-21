@@ -2,21 +2,27 @@
 An Restful API wrapper base on IATA TIMATIC AutoCheck API. 
 By specifying the country (travel from/to) and your holding document, the API will return you the Passport/VISA/Health/Customs requirement/information of your destination country.
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/wisebobo/travel-advisor/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/wisebobo/travel-advisor.svg?style=social&label=Stars)](https://github.com/wisebobo/travel-advisor)
+[![GitHub forks](https://img.shields.io/github/forks/wisebobo/travel-advisor.svg?style=social&label=Fork)](https://github.com/wisebobo/travel-advisor)
+
+
+
 ## Prerequisite
 * Register your IATA TIMATIC account
 
 ## Dependencies
-* SpringBoot
-* Apache Commons Pool (common-pool2)
-* Apache Commons IO (commons-io)
-* Fastjson
-* Springfox Swagger2
-* Springfox Swagger UI
-* Project Lombok
-* Guava: Google Core Libraries For Java
-* MySQL Connector/J
-* MyBatis Spring Boot Starter
-* Druid Spring Boot Starter
+* [![Springboot](https://img.shields.io/badge/spring--boot-2.3.0-brightgreen.svg)](http://spring.io/projects/spring-boot)
+* [![Common Pool2](https://img.shields.io/badge/common--pool2-2.8.0-brightgreen.svg)](https://commons.apache.org/proper/commons-pool/)
+* [![Commons IO](https://img.shields.io/badge/commons--io-2.6.0-brightgreen.svg)](http://commons.apache.org/proper/commons-io/)
+* [![Fastjson](https://img.shields.io/badge/fastjson-1.2.68-brightgreen.svg)](https://github.com/alibaba/fastjson)
+* [![Springfox Swagger2](https://img.shields.io/badge/springfox--swagger2-2.9.2-brightgreen.svg)](https://github.com/springfox/springfox)
+* [![Springfox Swagger UI](https://img.shields.io/badge/springfox--swagger--ui-2.9.2-brightgreen.svg)](https://github.com/springfox/springfox)
+* [![Project Lombok](https://img.shields.io/badge/lombok-1.18.12-brightgreen.svg)](https://projectlombok.org)
+* [![Guava](https://img.shields.io/badge/guava-29.0--jre-brightgreen.svg)](https://github.com/google/guava)
+* [![MyBatis](https://img.shields.io/badge/mybatis--spring--boot--starter-2.1.2-brightgreen.svg)](http://mybatis.org/spring-boot-starter/)
+* [![Druid](https://img.shields.io/badge/druid-1.1.22-brightgreen.svg)](https://github.com/alibaba/druid)
 
 ## Digital Signature
 In each API call, the following header fields are required.
