@@ -21,7 +21,7 @@
         <redisson.version>3.12.5</redisson.version>
         <swagger.version>2.9.2</swagger.version>
         <commons-io.version>2.6</commons-io.version>
-        <fastjson.version>1.2.68</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <mybatis.spring.version>2.1.2</mybatis.spring.version>
     </properties>
 
